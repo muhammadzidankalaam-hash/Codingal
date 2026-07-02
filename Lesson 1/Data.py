@@ -1,0 +1,10 @@
+a = 5
+print("type of a =",type (a))
+b = 5.7
+print("type of b =",type (b))
+c = True
+print("type of c =",type(c))
+d = "that"
+print("type of d =",type(d))
+e = 23.000005676
+print("type of e =",type(e))
