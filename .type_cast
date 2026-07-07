@@ -1,0 +1,96 @@
+f = 10.18
+# Convert float into int
+i = int(f)
+print(i)
+print("Enter Your Name: ")
+name = input("enter your name: ")
+print("\nHello", name, "\nwelcome of codingal")
+str1 = 'Hello'
+str2 = 'World!'
+
+# using +
+print('str1 + str2 =', str1 + str2)
+Str = "string"
+
+print(Str[3:])
+
+print(Str[0:1])
+
+print(Str[-1])
+message = "python is fun"
+print(message.upper())
+# 1) Store an integer value in `a`.
+# 2) Print the datatype of `a` using `type()`.
+# 3) Store a decimal (float) value in `b`.
+# 4) Print the datatype of `b` using `type()`.
+# 5) Store a text (string) value in `c`.
+# 6) Print the datatype of `c` using `type()`.
+# 7) Store a boolean value (True/False) in `d`.
+# 8) Print the datatype of `d` using `type()`.
+# 1) Create variables to store different types of values:
+#    - `name` as text (string)
+#    - `age` as a whole number (integer)
+#    - `is_student` as True/False (boolean)
+#    - `weight` as a decimal number (float)
+# 2) Print each variable’s value.
+# 3) Print the datatype of each variable using `type()`.
+# 4) Show a message that type casting will happen next.
+# 5) Convert `age` from an integer to a string and store it back in `age`.
+# 6) Print `age` and print its datatype again to confirm it changed.
+# 7) Convert `weight` from a float to an integer and store it back in `weight`.
+# 8) Print `weight` and print its datatype again to confirm it changed.
+# 1) Ask the user to enter a word or sentence and store it in `text`.
+# 2) Reverse the string stored in `text` and store the reversed result in `revText`.
+#    (Reversing means the last character becomes first, and the first becomes last.)
+# 3) Replace `text` with the reversed string (set `text` equal to `revText`).
+# 4) Print a message saying you are showing the reversed string.
+# 5) Print the reversed string stored in `text`.
+# Let's check the datatype of different values
+a = 5
+print("type of a: ", type(a))
+
+b=2.5
+print("type of b: ", type(b))
+
+c= "coding"
+print("type of c: ", type(c))
+
+d= True
+print("type of d: ", type(d))
+# Assigning Different Variables
+name = "Penguin"
+age = 15
+is_student = True
+weight = 38.5
+
+# Printing Different Variables and their Data Type
+print("Name :", name)
+print("Data Type of Name is", type(name))
+
+print("Age :", age)
+print("Data Type of Age is", type(age))
+
+print("is_student :", is_student)
+print("Data Type of is_student is", type(is_student))
+
+print("Weight :", weight)
+print("Data Type of weight is", type(weight))
+
+# Type casting to convert the datatype of variables
+print("\n After Type Casting....")
+age = str(age)
+print(age)
+print("Data Type of age is", type(age))
+weight = int(weight)
+print(weight)
+print("Data Type of Weight is", type(weight))
+#input a word
+text = str(input("Enter a string: "))
+
+# Reverse String 
+# using step value as -1 to iterate in reverse
+revText = text[::-1] 
+text = revText
+
+print("Reverse of Given String is:")
+print(text)
