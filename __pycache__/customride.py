@@ -34,5 +34,5 @@ else:
     print("it is not a valid choice")
     print()
 print("your custom ride is ready")
-
+print()
 
