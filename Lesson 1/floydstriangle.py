@@ -1,4 +1,4 @@
-n = int(input("please enter the total number of rows :"))
+ = int(input("please enter the total number of rows :"))
 number = 1 
 print("Floyd's Triangle")
 for i in range(1, n + 1):
