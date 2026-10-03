@@ -1,0 +1,11 @@
+tuplex = ("Tuple", False, 3,2.1)
+print(tuplex)
+tuplex = (4,6,2,8,3,1)
+print(tuplex)
+tuplex = tuplex + (9,)
+print(tuplex)
+tuple1 = (90,70,40,90,50)
+print(tuple1.count(90))
+tuplex = (1,2,3,4,5,6,7,8,9,10)
+slice = tuplex[3:5]
+print(slice)
