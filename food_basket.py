@@ -1,0 +1,20 @@
+basket1 ={"apple","banana","blueberry","grape","apple","strawberry"}
+basket2 ={"orange","apple","banana","grape","blueberry"}
+print("basket1:",basket1)
+print("basket2:",basket2)
+basket1.add("rasberry")
+print("basket1 after adding rasberry:",basket1)
+basket2.add("mango")
+print("basket2 after adding mango:",basket2)
+common_fruits = basket1.intersection(basket2)
+print("Fruits in both baskets:",common_fruits)
+import array as arr
+fruit_counts =  arr.array('i', [3,5,3,4])
+print("fruit counts array:", fruit_counts)
+fruit_counts.insert(0,1)
+fruit_counts.append(6)
+print("Fruit counts after adding items:",fruit_counts)
+count_of_4 = fruit_counts.count(4)
+print("number of times 4 appears:",count_of_4)
+fruit_counts.reverse()
+print("Reversed fruit counts array:",fruit_counts)
